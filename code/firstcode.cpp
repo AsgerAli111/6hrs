@@ -1,4 +1,6 @@
 #include<iostream>
+#include<ctime>
+#include<cstdlib>
 
 namespace first{
 
@@ -20,9 +22,9 @@ int main(){
     std::cout<<"local x: "<<x<<std::endl;
     std::cout<<"namespace x: "<<first::x<<std::endl;
     std::cout<<"namespace x: "<<second::x<<std::endl;
-    std::cout<<name;
-
-
-
+    std::cout<<name<<std::endl;
+    srand(time(NULL));
+    int number =rand()%20;
+    std::cout<<number;
     return 0;
 }
