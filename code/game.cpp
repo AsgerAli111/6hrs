@@ -41,7 +41,9 @@ do{
 
 while(guess!=key);
 
-std::cin>>attempt;
+
+std::cout<<arr[3];
+
 
     return 0;
 }
